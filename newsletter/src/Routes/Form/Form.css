@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../assets/fonts/Roboto-Bold.ttf') format('ttf'),
+         url('../../assets//fonts/Roboto-Regular.ttf') format('ttf');
+  }
+
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.containerForm{
+    width: 55%;
+    height: 35%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 15px;
+}
+.contInfo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+    font-size: 50px;
+    width: 85%;
+    margin: 0;
+}
+.desc{
+    font-family: 'Roboto';
+    color: hsl(234, 29%, 20%);
+    font-size: 16px;
+    width: 85%;
+}
+.contLista{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 85%;
+}
+.Lista{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    margin: 8px;
+    width: 100%;
+}
+.contEmail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    width: 100%;
+}
+.contValid{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+    width: 80%;
+}
+.textEmail{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+    font-size: 12px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.textEmailNoValid{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: hsl(4, 100%, 67%);
+    font-size: 12px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    text-align: end;
+}
+.input{
+    width: 80%;
+    height: 40px;
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.input:hover{
+    border: 1px solid hsl(234, 29%, 20%);
+}
+::placeholder{
+    font-family: 'Roboto';
+    color: hsl(231, 7%, 60%);
+    font-size: 14px;
+    padding: 0 5%;
+}
+.button{
+    width: 80%;
+    height: 45px;
+    border: none;
+    background: hsl(234, 29%, 20%);
+    border-radius: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.button:hover{
+    background: linear-gradient(to right, #FD5378, #FD683D);
+    box-shadow: 1px 1px 15px hsl(4, 100%, 67%);
+}
+.textButton{
+    font-family: 'Roboto';
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+}
+.contImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.img{
+    margin: auto;
+    width: 95%;
+    height: 95%;
+}
+.imgRes{
+    display: none;
+}
+.formEmail{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.noValido{
+    width: 80%;
+    height: 40px;
+    border: 1px solid hsla(4, 100%, 67%, 0.541);
+    background-color: hsla(4, 100%, 67%, 0.096);
+    border-radius: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    margin: auto;
+}

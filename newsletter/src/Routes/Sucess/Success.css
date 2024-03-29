@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../assets/fonts/Roboto-Bold.ttf') format('ttf'),
+         url('../../assets//fonts/Roboto-Regular.ttf') format('ttf');
+}
+
+.Success{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.containerSuccess{
+    width: 21%;
+    background-color: white;
+    padding: 3%;
+    border-radius: 15px;
+}
+.titleSuccess{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+    font-size: 48px;
+    width: 85%;
+    margin: 0;
+    margin-top: 8%;
+    line-height: 90%;
+}
+.descSuccess{
+    font-family: 'Roboto';
+    color: hsl(234, 29%, 20%);
+    font-size: 16px;
+    width: 100%;
+}
+.buttonSuccess{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: hsl(234, 29%, 20%);
+    border-radius: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.buttonSuccess:hover{
+    background: linear-gradient(to right, #FD5378, #FD683D);
+    box-shadow: 1px 1px 15px hsl(4, 100%, 67%);
+}
+.textButtonSuccess{
+    font-family: 'Roboto';
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+}
+.emailText{
+    
+}
