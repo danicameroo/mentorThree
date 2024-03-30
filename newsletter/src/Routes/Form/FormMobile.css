@@ -4,29 +4,25 @@
          url('../../assets//fonts/Roboto-Regular.ttf') format('ttf');
 }
 
-@media (min-width: 700px) {
+@media (max-width: 699px) {
     .Form{
         display: flex;
         justify-content: center;
         align-items: center;
-        position: absolute;
-        top: 1;
-        left: 1;
-        width: 100%;
         height: 100%;
     }
     .containerForm{
-        width: 55%;
+        width: 100%;
+        height: 100%;
         background-color: hsl(0, 0%, 100%);
         display: flex;
-        flex-direction: row;
+        flex-direction: column-reverse;
         justify-content: center;
-        border-radius: 15px;
     }
     .contInfo{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         align-items: center;
         justify-content: center;
     }
@@ -135,15 +131,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 100%;
     }
     .img{
-        margin: auto;
-        width: 95%;
-        height: 95%;
+        display: none;
     }
     .imgRes{
-        display: none;
+        margin: auto;
+        width: 100%;
+        height: 100%;
     }
     .formEmail{
         width: 100%;

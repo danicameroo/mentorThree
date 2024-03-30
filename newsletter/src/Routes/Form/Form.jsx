@@ -2,6 +2,7 @@ import img from '../../assets/images/illustration-sign-up-desktop.svg'
 import imgRes from '../../assets/images/illustration-sign-up-mobile.svg'
 import list from '../../assets/images/icon-list.svg'
 import './Form.css'
+import './FormMobile.css'
 import { useState } from 'react'
 import validator from 'validator';
 import Success from '../Sucess/Success'

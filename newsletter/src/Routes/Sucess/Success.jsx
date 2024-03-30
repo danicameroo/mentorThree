@@ -21,7 +21,7 @@ const Success = ({input}) => {
             (
             <div className="Success">
                 <div className="containerSuccess">
-                    <img src={success} alt="" />
+                    <img src={success} className="checkMobile" alt="" />
                     <h2 className="titleSuccess">Thanks for subscribing!</h2>
                     <p className="descSuccess">
                         A confirmation email has been sent to <strong> {input} </strong>
